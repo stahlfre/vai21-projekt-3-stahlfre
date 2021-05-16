@@ -1,0 +1,11 @@
+body {
+    margin: 10px 10px;
+}
+#alignment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    padding-top: var(--bs-gutter-x,.75rem);
+    padding-bottom: var(--bs-gutter-x,.75rem);
+}

@@ -1,0 +1,184 @@
+{
+    "header": "Electricity production and consumption, GWh",
+    "year": 2019,
+    "source": [
+        {
+            "name": "NUCLEAR POWER",
+            "category": "Nuclear"
+        },
+        {
+            "name": "Oil",
+            "category": "Fossil fuels"
+        },
+        {
+            "name": "Hard coal",
+            "category": "Fossil fuels"
+        },
+        {
+            "name": "Natural gas",
+            "category": "Fossil fuels"
+        },
+        {
+            "name": "Other fossil fuels",
+            "category": "Fossil fuels"
+        },
+        {
+            "name": "FOSSIL FUELS",
+            "category": "Fossil fuels"
+        },
+        {
+            "name": "Peat",
+            "category": "Peat"
+        },
+        {
+            "name": "FOSSIL FUELS AND PEAT",
+            "category": "Fossil fuels and peat"
+        },
+        {
+            "name": "Hydro power",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Wind power",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Solar power",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Black liquor",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Other wood fuels",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Other renewables",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "RENEWABLE ENERGY",
+            "category": "Renewable energy"
+        },
+        {
+            "name": "Other energy sources",
+            "category": "Other"
+        },
+        {
+            "name": "TOTAL PRODUCTION",
+            "category": "Production"
+        },
+        {
+            "name": "Net imports",
+            "category": "Imports"
+        },
+        {
+            "name": "TOTAL CONSUMPTION",
+            "category": "Consumption"
+        }
+    ],
+    "label": {
+        "arvogwh": "Quantity, GWh",
+        "vv_muutos": "Annual change %",
+        "osuuskk": "Share of total consumption %",
+        "osuuskt": "Share of total production, %"
+    },
+    "unit": {
+        "arvogwh": {
+            "base": "GWh",
+            "decimals": 0
+        },
+        "vv_muutos": {
+            "base": "%",
+            "decimals": 1
+        },
+        "osuuskk": {
+            "base": "%",
+            "decimals": 1
+        },
+        "osuuskt": {
+            "base": "%",
+            "decimals": 1
+        }
+    },
+    "value": [
+        22915,
+        4.7,
+        26.6,
+        34.7,
+        267,
+        16.7,
+        0.3,
+        0.4,
+        4115,
+        -24.4,
+        4.8,
+        6.2,
+        3767,
+        -7.8,
+        4.4,
+        5.7,
+        947,
+        -15.3,
+        1.1,
+        1.4,
+        9096,
+        -16.4,
+        10.6,
+        13.8,
+        2821,
+        -13.2,
+        3.3,
+        4.3,
+        11918,
+        -15.6,
+        13.8,
+        18,
+        12239,
+        -6.8,
+        14.2,
+        18.5,
+        6025,
+        3.2,
+        7,
+        9.1,
+        147,
+        63.2,
+        0.2,
+        0.2,
+        6750,
+        3.8,
+        7.8,
+        10.2,
+        5060,
+        3.5,
+        5.7,
+        7.4,
+        732,
+        -8,
+        1.1,
+        1.4,
+        30952,
+        -1,
+        36,
+        46.9,
+        258,
+        -6,
+        0.3,
+        0.4,
+        66043,
+        -2.2,
+        76.7,
+        100,
+        20042,
+        0.5,
+        23.3,
+        null,
+        86085,
+        -1.6,
+        100,
+        null
+    ]
+}

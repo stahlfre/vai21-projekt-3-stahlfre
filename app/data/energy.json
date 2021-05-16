@@ -1,0 +1,217 @@
+{
+    "class": "dataset",
+    "label": "Electricity production and toal consumption by Year, Electricity production and consumption, GWh and Information",
+    "source": "Production of electricity and heat, Statistics Finland",
+    "updated": "2020-11-03T06:00:00Z",
+    "id": [
+        "Vuosi",
+        "Sähkön tuotanto ja kulutus, GWh",
+        "Tiedot"
+    ],
+    "size": [
+        1,
+        19,
+        4
+    ],
+    "dimension": {
+        "Vuosi": {
+            "label": "Year",
+            "category": {
+                "index": {
+                    "2019": 0
+                },
+                "label": {
+                    "2019": "2019"
+                }
+            }
+        },
+        "Sähkön tuotanto ja kulutus, GWh": {
+            "label": "Electricity production and consumption, GWh",
+            "category": {
+                "index": {
+                    "01": 0,
+                    "02": 1,
+                    "03": 2,
+                    "04": 3,
+                    "05": 4,
+                    "06": 5,
+                    "07": 6,
+                    "08": 7,
+                    "09": 8,
+                    "10": 9,
+                    "11": 10,
+                    "12": 11,
+                    "13": 12,
+                    "14": 13,
+                    "15": 14,
+                    "16": 15,
+                    "17": 16,
+                    "18": 17,
+                    "19": 18
+                },
+                "label": {
+                    "01": "NUCLEAR POWER",
+                    "02": "Oil (Fossil fuels)",
+                    "03": "Hard coal (Fossil fuels)",
+                    "04": "Natural gas (Fossil fuels)",
+                    "05": "Other fossil fuels",
+                    "06": "FOSSIL FUELS TOTAL",
+                    "07": "Peat",
+                    "08": "FOSSIL FUELS AND PEAT TOTAL",
+                    "09": "Hydro power (Renewable energy source)",
+                    "10": "Wind power (Renewable energy source)",
+                    "11": "Solar power (Renewable energy source)",
+                    "12": "Black liquor (Renewable energy source)",
+                    "13": "Other wood fuels (Renewable energy source)",
+                    "14": "Other renewables",
+                    "15": "RENEWABLE ENERGY SOURCES TOTAL",
+                    "16": "Other energy sources",
+                    "17": "TOTAL PRODUCTION OF ELECTRICITY",
+                    "18": "Net imports of electricity",
+                    "19": "TOTAL CONSUMPTION OF ELECTRICITY"
+                }
+            },
+            "link": {
+                "describedby": [
+                    {
+                        "extension": {
+                            "Sähkön tuotanto ja kulutus, GWh": "SCALE-TYPE=nominal"
+                        }
+                    }
+                ]
+            }
+        },
+        "Tiedot": {
+            "label": "Information",
+            "category": {
+                "index": {
+                    "arvogwh": 0,
+                    "vv_muutos": 1,
+                    "osuuskk": 2,
+                    "osuuskt": 3
+                },
+                "label": {
+                    "arvogwh": "Quantity, GWh",
+                    "vv_muutos": "Annual change %",
+                    "osuuskk": "Share of total consumption %",
+                    "osuuskt": "Share of total production, %"
+                },
+                "unit": {
+                    "arvogwh": {
+                        "base": "GWh",
+                        "decimals": 0
+                    },
+                    "vv_muutos": {
+                        "base": "%",
+                        "decimals": 1
+                    },
+                    "osuuskk": {
+                        "base": "%",
+                        "decimals": 1
+                    },
+                    "osuuskt": {
+                        "base": "%",
+                        "decimals": 1
+                    }
+                }
+            }
+        }
+    },
+    "value": [
+        22915,
+        4.7,
+        26.6,
+        34.7,
+        267,
+        16.7,
+        0.3,
+        0.4,
+        4115,
+        -24.4,
+        4.8,
+        6.2,
+        3767,
+        -7.8,
+        4.4,
+        5.7,
+        947,
+        -15.3,
+        1.1,
+        1.4,
+        9096,
+        -16.4,
+        10.6,
+        13.8,
+        2821,
+        -13.2,
+        3.3,
+        4.3,
+        11918,
+        -15.6,
+        13.8,
+        18,
+        12239,
+        -6.8,
+        14.2,
+        18.5,
+        6025,
+        3.2,
+        7,
+        9.1,
+        147,
+        63.2,
+        0.2,
+        0.2,
+        6750,
+        3.8,
+        7.8,
+        10.2,
+        5060,
+        3.5,
+        5.7,
+        7.4,
+        732,
+        -8,
+        1.1,
+        1.4,
+        30952,
+        -1,
+        36,
+        46.9,
+        258,
+        -6,
+        0.3,
+        0.4,
+        66043,
+        -2.2,
+        76.7,
+        100,
+        20042,
+        0.5,
+        23.3,
+        null,
+        86085,
+        -1.6,
+        100,
+        null
+    ],
+    "status": {
+        "71": ".",
+        "75": "."
+    },
+    "role": {
+        "time": [
+            "Vuosi"
+        ],
+        "metric": [
+            "Tiedot"
+        ]
+    },
+    "version": "2.0",
+    "extension": {
+        "px": {
+            "tableid": "statfin_salatuo_pxt_12b4",
+            "decimals": 0
+        }
+    }
+}
