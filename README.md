@@ -24,3 +24,10 @@ Det finns fyra olika sätt att sortera noderna, men pga. data sättet så ger "j
 Det går även att flyta på noderna åt alla håll och förbindelserna följer med.
 
 Det går av välja färg tema enligt helfärgad eller "gradient". Gradient fungerar inte helt exakt en nod får först inga förbindelser före man flyttar på den.
+
+Det finns tool-tips för både noderna och förbindelserna som visar energimängden i GWh.
+
+## Självutvärdering
+
+4 verkar rimligt. Nästan alla delar fungerar i projektet. createSankeyGradient() fungerar inte till 100%, eftersom den första länken inte ritas ut förrän man för på start eller slut noden.
+
