@@ -18,7 +18,6 @@ d3.json('data/energy_v2.json')
 
         variant.addEventListener("change", function () {
             if (variant.value == 1) {
-                console.log(variant.value);
                 alignment.addEventListener("change", function () {
 
                     createSankeyGradient(d, alignment.value);
